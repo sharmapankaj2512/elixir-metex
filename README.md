@@ -4,10 +4,10 @@
 
 ## How to play
 
-`iex -S mix`
-`iex(2)> Metex.Worker.start_link()`
-`iex(2)> Metex.Worker.get_temprature "mumbai"`
-`iex(2)> Metex.Worker.stop()`
+- Load Metex Worker in the console `iex -S mix`
+- Start a metex GenServer `iex(2)> Metex.Worker.start_link()`
+- Fetch temprature `iex(2)> Metex.Worker.get_temprature "mumbai"`
+- Stop GenServer `iex(2)> Metex.Worker.stop()`
 
 
 
